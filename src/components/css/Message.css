@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.msgBox{
+    background-color: rgb(239 239 239);
+    border-radius: 10px;
+    padding: 6px 10px;
+    width: fit-content;
+    margin: 8px 0;
+    box-shadow: 0px 0px 2px #686868 ;
+}
+
+.user{
+    font-weight: bold;
+}
+
+.msgText small{
+    display: flex;
+    justify-content: end;
+    margin-top: 4px;
+    font-size: 12px;
+    color: #7e7c7a;
+}

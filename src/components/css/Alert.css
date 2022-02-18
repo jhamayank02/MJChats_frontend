@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.alertBox{
+    height: 22px;
+}
+
+.alertMsg{
+    background-color: #71ffaa;
+    padding: 9px 63px;
+    font-size: 18px;
+    color: #008134
+}

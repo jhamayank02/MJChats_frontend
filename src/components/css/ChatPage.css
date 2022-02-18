@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.connectionStatus{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.displayMsgs{
+    overflow-y: scroll;
+    width: 40%;
+    margin: auto;
+    height: 65vh;
+    border: 2px solid #30338b;
+    border-radius: 5px;
+    padding: 5px 8px;
+    box-sizing: border-box;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.msgForm form input{
+    padding: 4px;
+    outline: none;
+    border: 2px solid #30338b;
+    border-radius: 5px;
+    margin-right: 6px;
+    margin-bottom: 0;
+}
+
+.msgForm form .sendBtn{
+    padding: 4px 10px;
+    font-size: 16px;
+    background-color: #30338b;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 0;
+}
+
+.msgForm{
+    margin: auto;
+}
+
+.msgForm form{
+    display: flex;
+    flex-direction: row;
+    align-items: center !important;
+    width: 40%;
+    margin: auto;
+    align-items: center;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+    .displayMsgs{
+      width: 60%;
+    }
+    
+    .msgForm form{
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .displayMsgs{
+      width: 60%;
+    }
+
+    .msgForm form{
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .displayMsgs{
+      width: 90%;
+    }
+
+    .msgForm form{
+        width: 90%;
+    }
+}
